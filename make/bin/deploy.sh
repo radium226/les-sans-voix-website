@@ -6,7 +6,7 @@ export REPO_BRANCH="website"
 
 main()
 {
-    declare repo_url="$( git remote get-url "origin" )"
+    declare repo_url="$( git config --get "remote.origin.url" )"
     echo "repo_url=${repo_url}" >&2
     
     declare repo_folder_path="$( mktemp -d )"
