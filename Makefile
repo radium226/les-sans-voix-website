@@ -29,7 +29,7 @@ build: index.html
 
 .PHONY: deploy
 deploy: build
-	make/bin/deploy.sh
+	GITHUB_TOKEN="$(GITHUB_TOKEN)" make/bin/deploy.sh
 
 .PHONY: run
 run:
