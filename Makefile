@@ -25,13 +25,11 @@ clean:
 #		"."
 
 .PHONY: build
-build:
-	make/bin/build.sh
-
+build: index.html
 
 .PHONY: deploy
-deploy:
-	false
+deploy: build
+	make/bin/deploy.sh
 
 .PHONY: run
 run:
