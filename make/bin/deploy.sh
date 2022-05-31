@@ -2,6 +2,11 @@
 
 set -Eeuo pipefail
 
+# TODO:
+#  - Put some of the constants on top (username, file paths, etc.)
+#  - Add foldable logs (by folling this: https://github.community/t/has-github-action-somthing-like-travis-fold/16841)
+#  - Put everything in quiet mode
+
 main()
 {
     declare repo_url=
@@ -11,6 +16,8 @@ main()
         repo_url="https://radium226:${GITHUB_TOKEN}@github.com/radium226/les-sans-voix-website.git"
     fi
     echo "repo_url=${repo_url}" >&2
+
+    declare commit_message="$( git log -1 --pretty="%B" )"
     
     declare repo_folder_path="build/deploy"
     mkdir -p "${repo_folder_path}"
@@ -24,7 +31,7 @@ main()
     tar -xf "build/package/website.tar.gz" -C "build/deploy"
     
     git -C "${repo_folder_path}" add --all || true
-    git -C "${repo_folder_path}" commit -m "Deploy website! " --allow-empty
+    git -C "${repo_folder_path}" commit  --allow-empty -m "${commit_message}"
     git -C "${repo_folder_path}" push -u "origin" "website"
 }
 
