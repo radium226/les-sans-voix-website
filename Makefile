@@ -24,8 +24,9 @@ clean:
 #		--directory="build/public" \
 #		"."
 
-.PHONY: build
-build: index.html
+.PHONY: package
+package:
+	make/bin/package.sh
 
 .PHONY: deploy
 deploy: build
