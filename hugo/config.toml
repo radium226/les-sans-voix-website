@@ -1,8 +1,7 @@
 baseURL = 'https://blog.rouages.xyz/les-sans-voix-website/'
 languageCode = 'en-us'
 
-title = "Davids Blog"
-author = "David Wallace"
+title = "Les Sans-Voix"
 theme = "contrast"
 
 [params]
