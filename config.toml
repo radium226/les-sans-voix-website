@@ -1,0 +1,18 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+
+title = "Davids Blog"
+author = "David Wallace"
+theme = "contrast"
+
+[params]
+  minimal = false
+  excerpts = false
+  description = "my blog"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10

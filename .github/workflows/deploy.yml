@@ -11,6 +11,11 @@
       - name: checkout repo
         uses: actions/checkout@v2
       
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.99.1"
+
       - name: package website
         run: make package
       
