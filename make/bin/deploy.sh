@@ -23,8 +23,8 @@ main()
 
     tar -xf "build/package/website.tar.gz" -C "build/deploy"
     
-    git -C "${repo_folder_path}" add --all
-    git -C "${repo_folder_path}" commit -m "Deploy website! "
+    git -C "${repo_folder_path}" add --all || true
+    git -C "${repo_folder_path}" commit -m "Deploy website! " --allow-empty
     git -C "${repo_folder_path}" push -u "origin" "website"
 }
 
