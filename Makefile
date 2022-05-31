@@ -8,7 +8,7 @@ SHELL = /usr/bin/env
 
 .PHONY: clean
 clean:
-	false
+	rm -Rf "build"
 
 #build/site.tar.gz:
 #	mkdir -p "build/public" && \
@@ -24,8 +24,9 @@ clean:
 #		--directory="build/public" \
 #		"."
 
-.PHONY: package
-package: build/site.tar.gz
+.PHONY: build
+build:
+	make/bin/build.sh
 
 
 .PHONY: deploy
