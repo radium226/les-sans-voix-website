@@ -6,9 +6,9 @@ export REPO_BRANCH="website"
 
 main()
 {
-    git remote
-
     declare repo_url="$( git remote get-url "origin" )"
+    echo "repo_url=${repo_url}" >&2
+    
     declare repo_folder_path="$( mktemp -d )"
     mkdir -p "${repo_folder_path}"
     git clone --branch "${REPO_BRANCH}" "${repo_url}" "${repo_folder_path}"
