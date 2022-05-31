@@ -10,7 +10,7 @@ main()
 		--destination "build/package/hugo" \
 		--quiet
     
-    tar -cvf "build/package/website.tar.gz" "build/package/hugo"
+    tar -cvf "build/package/website.tar.gz" -C "build/package/hugo" "."
 }
 
 main "${@}"
