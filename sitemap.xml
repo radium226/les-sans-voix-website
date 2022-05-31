@@ -2,36 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/01-%C3%A0_propos/</loc>
-    <priority>0</priority>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/a-propos/</loc>
   </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/02-le_film/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/03-filmographie_de_lauteur/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/04-gallerie/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/05-fiche_technique/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/06-agenda_des_projections/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/07-contact/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/08-logo/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://blog.rouages.xyz/les-sans-voix-website/09-dans_la_presse/</loc>
-    <priority>0</priority>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/agenda/</loc>
   </url><url>
     <loc>https://blog.rouages.xyz/les-sans-voix-website/categories/</loc>
   </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/contact/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/presse/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/fiche-technique/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/filmographie/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/gallerie/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/le-film/</loc>
+  </url><url>
     <loc>https://blog.rouages.xyz/les-sans-voix-website/</loc>
+  </url><url>
+    <loc>https://blog.rouages.xyz/les-sans-voix-website/logo/</loc>
   </url><url>
     <loc>https://blog.rouages.xyz/les-sans-voix-website/tags/</loc>
   </url>
