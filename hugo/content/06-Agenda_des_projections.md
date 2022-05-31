@@ -1,3 +1,8 @@
+---
+title: "Agenda"
+slug: "/agenda"
+---
+
 Calendrier des projections à venir
 
 Projections passées > liste des projections passées (date & lieu)

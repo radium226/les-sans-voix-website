@@ -1,3 +1,8 @@
+---
+title: "Filmographie de l'auteur"
+slug: "/filmographie"
+---
+
 DOCUMENTAIRES 
 Mé 67, récits d’un massacre - Combat Ouvrier, Guadeloupe – 65’ – 2017
 Insoumises, 105mn (co-auteure), réalisé par Eric Guéret, coproduit par Elzevir et Cie – Canal Plus – 2013

@@ -1,3 +1,8 @@
+---
+title: "À propos"
+slug: "/a-propos"
+---
+
 Qui vote ? Qui décide ? Dans certaines communes, moins de 20% de la population est représentée, principalement du fait que de nombreux habitants n’ont pas la nationalité qui leur permette de voter. Pourtant, certains vivent là depuis 20 ans, leurs enfants vont à l’école, ils travaillent dans leur quartier, payent leurs impôts. 
 
 Ce film nous raconte une aventure politique, aventure vécue de l'intérieur par une cinéaste, témoignant au plus près de l'enthousiasme qu'elle a suscité. L'action se situe dans le 18ème arrondissement de Paris, arrondissement où cohabitent des résidents de plus de cent nationalités différentes, lors des élections municipales de 2014. 

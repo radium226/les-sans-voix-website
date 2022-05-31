@@ -20,4 +20,4 @@ deploy: build
 
 .PHONY: run
 run:
-	hugo --verbose serve --disableFastRender
+	hugo --source "hugo" --verbose serve --disableFastRender

@@ -17,16 +17,11 @@
 {{- end }}
 
 <header>
-  {{ if not (gt (len .Site.Menus) 1) }}
-    <a href="{{ .Site.BaseURL }}" class="title">{{ .Site.Title }}</a>
+  <nav>
+  {{ range .Site.Pages }}
+    <a href="{{ .Permalink }}">{{ .Name }}</a>
   {{ end }}
-  {{ range $menu, $items := .Site.Menus }}
-    <nav>
-    {{ range $items }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
-    </nav>
-  {{ end }}
+  </nav>
 </header>
 
 {{- block "main" . }}{{- end }}

@@ -1,3 +1,8 @@
+---
+title: "Contact"
+slug: "/contact"
+---
+
 Dans le mesure de ses disponibilités, Frédérique peut se rendre à votre projection pour échanger sur le contenu du film.
 
 Téléphone (logo)

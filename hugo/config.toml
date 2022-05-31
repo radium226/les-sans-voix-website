@@ -11,7 +11,10 @@ theme = "contrast"
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+    identifier = "01-À_propos"
+    name = "À propos"
+    slug = "a-propos"
+  [[menu.main]]
+    identifier = "02-Le_film"
+    name = "Le film"
+    url = "/le-film/"
