@@ -1,0 +1,46 @@
+@mixin footer{
+
+    footer{
+@include flex-row;
+justify-content: space-between;
+align-items: flex-start;
+padding:50px 100px 50px 100px;
+color: rgb(46, 46, 46);
+
+.copyright{
+    font-size: 20px;
+    i{
+        margin-right: 5px;
+    }
+}
+
+.contacts{
+    font-size: 20px;
+}
+
+.social-networks{
+i{
+    color: red;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+}
+
+.link-lane p{
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.language-choice{
+    font-size: 20px;
+    font-weight: bold;
+select{
+    width: 60px;
+    height: 25px;
+    margin-left: 20px;
+}
+}
+}
+}

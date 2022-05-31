@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+.footer__logo a {
+  font-family: "Shrikhand", cursive;
+}
+
+/* Breakpoints BOOTSTRAP	
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+/* @mixin x-small-screen{
+    @media (max-width: 576px) { @content; }
+  }
+  @mixin small-screen{
+    @media (max-width: 768px) { @content; }
+  }
+  @mixin medium-screen{
+    @media (max-width: 948px) { @content; }
+  }
+  @mixin large-screen{
+    @media (max-width: 1200px) { @content; }
+  }
+  @mixin x-large-screen{
+    @media (max-width: 1400px) { @content; }
+  } */
+
+/*# sourceMappingURL=pages.css.map */

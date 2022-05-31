@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    }
+    
+h1{
+    font-family: 'Shrikhand', cursive;
+}
+    
+.footer{
+    &__logo a{
+        font-family: 'Shrikhand', cursive;
+    }
+}

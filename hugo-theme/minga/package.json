@@ -1,0 +1,13 @@
+{
+  "name": "p3v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/scss/main.scss:./styles/css/main.css ./styles/scss/pages.scss:./styles/css/pages.css",
+    "prefix": "postcss ./styles/css/main.css ./styles/css/pages.css --use autoprefixer -d ./styles/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}

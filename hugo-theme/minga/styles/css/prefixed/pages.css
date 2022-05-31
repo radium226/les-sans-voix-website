@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+}
+
+.footer__logo a {
+  font-family: "Shrikhand", cursive;
+}
+
+/* Breakpoints BOOTSTRAP	
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+/* @mixin x-small-screen{
+    @media (max-width: 576px) { @content; }
+  }
+  @mixin small-screen{
+    @media (max-width: 768px) { @content; }
+  }
+  @mixin medium-screen{
+    @media (max-width: 948px) { @content; }
+  }
+  @mixin large-screen{
+    @media (max-width: 1200px) { @content; }
+  }
+  @mixin x-large-screen{
+    @media (max-width: 1400px) { @content; }
+  } */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3BhZ2VzLmNzcyIsIi4uLy4uL3Njc3MvYmFzZS9iYXNlLXJ1bGVzLnNjc3MiLCIuLi8uLi9zY3NzL2Jhc2UvdHlwb2dyYXBoeS5zY3NzIiwiLi4vLi4vc2Nzcy9iYXNlL2JyZWFrcG9pbnRzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsZ0JBQWdCO0FDQWhCO0VBQ0ksU0FBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FERUo7O0FDQ0E7RUFDSSxxQkFBQTtFQUNBLFVBQUE7QURFSjs7QUVWQTtFQUNJLGlDQUFBO0FGYUo7O0FFVkE7RUFDSSxpQ0FBQTtBRmFKOztBRVRJO0VBQ0ksaUNBQUE7QUZZUjs7QUd0QkE7Ozs7OzsrQkFBQTtBQVFBOzs7Ozs7Ozs7Ozs7OztLQUFBIiwiZmlsZSI6InBhZ2VzLmNzcyJ9 */

@@ -1,0 +1,312 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./layouts/footer";
+@import "./base/base-rules";
+@import "./base/typography";
+@import "./base/breakpoints";
+@import "./components/button";
+
+/* HEADER SECTION  */
+
+header{
+
+    @include flex-column();
+    @include totally-centered-flex();
+    color: black;
+    height: 100%;
+
+
+.background-image {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    }
+
+
+h1{
+    font-size: 100px;
+    @include flex-column;
+    @include totally-centered-flex;
+    &::after{
+        content: "";
+        border-bottom: 5px solid red;
+        position: relative;
+        margin-top: 10px;
+        height: 5px;
+        width: 300px;
+    }          
+}
+
+.trailer-button{   
+    margin: 30px 0 30px 0;
+    @include button();
+    }
+
+h2{
+    font-size: 50px   
+}
+
+.social-icons{
+    @include flex-row();
+    @include totally-centered-flex();
+    gap :100px;
+    margin-bottom: 50px;
+}
+i{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+}
+
+/* NAV SECTION  */
+
+nav{
+    position: absolute;
+    right:0;
+    top:0;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.site-nav-lang__toggle {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+/* SYNOPSIS SECTION */
+
+.synopsis{
+    background: $gradient;
+    color: white;
+    margin: 0;
+    padding: 50px 70px 50px 70px;
+
+    p{
+        margin: 0;
+        padding: 0;  
+        text-align: center; 
+        margin-bottom: 15px;
+        font-size: 25px
+    }
+}
+
+/* IMAGES SECTION */
+
+.images{
+    @include flex-row;
+    @include totally-centered-flex;
+    width: 100%;
+
+    img{
+        width: 33.33%
+    }
+}
+
+/* TECHNIQUE SECTION */
+
+.technique{
+    background-color: rgb(36, 35, 35);
+
+    color: white;
+    margin: 0;
+    padding: 50px 40px 50px 40px; 
+    text-transform: uppercase;
+    font-size: 16px;
+    dt{
+        font-weight: bold;
+        margin-right: 5px;
+        display: block;
+        line-height: 1.4;
+        
+    }
+    dd{
+        margin-left: 0;
+        line-height: 1.4;
+        display: block;
+        margin-inline-start: 40px;
+    &:after{
+        content: "\2022";
+        margin-left: 15px;
+        opacity: .5;
+    }
+    }
+}
+
+/* AGENDA SECTION */
+
+.agenda{
+    padding: 100px 0 300px 0;
+    background-color: white;
+    h2{
+        margin: 0;
+        text-align: center;
+        font-size: 50px;
+        font-weight: lighter;
+    }
+}
+
+/* CONTACT SECTION */
+
+.contact{
+    h2{
+        margin: 0;
+        background-color: white;
+        text-align: center;
+        font-size: 50px;
+        font-weight: lighter;
+        padding-bottom: 30px;
+    }
+
+    #availability-description{
+        background-color: white;
+    }
+    p{
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    &__staff-contact ul{
+        
+        @include flex-row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 100px;
+        margin: 0;
+        
+        li{
+            list-style: none;
+            @include flex-column;
+            @include totally-centered-flex;
+            font-size: 20px;
+            width: 500px;
+            i{
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+        }
+        .contact__icon--adjust{
+            @include flex-column;
+            @include totally-centered-flex;
+            gap: 20px;
+        }
+    }
+
+    &__form{
+        color: white;
+        background: $gradient;
+        @include flex-row;
+        @include totally-centered-flex;
+        .form-control{
+            width: 800px;
+            height: 50px;
+        }
+
+        .form-group{
+            margin: 0;
+            padding-bottom: 10px;
+        textarea{
+            width: 800px;
+            height: 400px;
+            color: black;
+        }
+        label{
+            display:block;
+            float:inline-start;
+            width:170px;
+            padding: 0 0 0 0;
+            text-transform: uppercase;
+            margin: 10px 0 5px 0;
+            text-align: left;
+        }  
+        input{
+            margin: 0;
+            color: black;
+        }
+        }
+    }
+
+    .checkbox{
+        margin-top: 0;
+        font-size: 18px;
+        input{
+            height: 20px;
+            width: 20px;
+            color: black;
+        }
+        a{
+            color: white;
+            text-decoration: underline;
+        }
+    }
+    .form-submit{
+        text-align: center;
+        padding: 50px 0 20px 0;
+        
+        input{
+        text-transform: uppercase;
+        border-radius: 300px;
+        font-weight: 700;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        background: rgb(41, 40, 40);
+        border-radius: 100px;
+        border: 2px solid white;
+        box-shadow: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        height: 60px;
+        width: 400px;
+        line-height: 1.4;
+        padding: 15px 40px 15px 40px;
+        filter: brightness(1);
+        &:hover{
+            filter: brightness(1.40);
+        }
+        }
+    }
+}
+/* FOOTER */
+
+@include footer();
+
+
+
+
+
+
+
+
+
+   
+   
+   
