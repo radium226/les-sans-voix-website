@@ -6,6 +6,8 @@ export REPO_BRANCH="website"
 
 main()
 {
+    git remote
+
     declare repo_url="$( git remote get-url "origin" )"
     declare repo_folder_path="$( mktemp -d )"
     mkdir -p "${repo_folder_path}"
