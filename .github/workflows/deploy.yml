@@ -11,4 +11,4 @@
       - name: checkout repo
         uses: actions/checkout@v2
       - name: deploy website
-        run: make deploy
+        run: make deploy GITHUB_TOKEN="${{ secrets.GH_TOKEN }}"

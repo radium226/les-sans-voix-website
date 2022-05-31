@@ -13,8 +13,11 @@ main()
     mkdir -p "${repo_folder_path}"
     git clone --branch "${REPO_BRANCH}" "${repo_url}" "${repo_folder_path}"
 
-    git -C "${repo_folder_path}" config user.email "robot@robot.io"
+    git -C "${repo_folder_path}" config user.email "github-actions[bot]"
     git -C "${repo_folder_path}" config user.name "Robot"
+
+    git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
     #git clean -fdx
     cp "./index.html" "${repo_folder_path}/index.html"
