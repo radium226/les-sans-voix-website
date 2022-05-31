@@ -10,20 +10,6 @@ SHELL = /usr/bin/env
 clean:
 	rm -Rf "build"
 
-#build/site.tar.gz:
-#	mkdir -p "build/public" && \
-#	cd "hugo" && \
-#	hugo  \
-#		--cleanDestinationDir \
-#		--destination "../build/public" \
-#		--quiet && \
-#	cd ".."
-#	tar \
-#		-zcf "build/site.tar.gz" \
-#		--transform="s,^\.,les-sans-voix," \
-#		--directory="build/public" \
-#		"."
-
 .PHONY: package
 package:
 	make/bin/package.sh
