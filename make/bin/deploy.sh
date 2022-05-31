@@ -6,7 +6,7 @@ export REPO_BRANCH="website"
 
 main()
 {
-    declare repo_url="https://${GITHUB_TOKEN}@github.com/radium226/les-sans-voix-website.git"
+    declare repo_url="https://radium226:${GITHUB_TOKEN}@github.com/radium226/les-sans-voix-website.git"
     #"$( git config --get "remote.origin.url" )"
     echo "repo_url=${repo_url}" >&2
     
